@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot>
 
+  <!-- PURPOSE: drive robot around -->
 
   <gazebo>
     <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
