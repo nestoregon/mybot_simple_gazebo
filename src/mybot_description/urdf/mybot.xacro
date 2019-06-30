@@ -3,7 +3,8 @@
 <robot name="myrobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <!-- Used to drive robot around (Gazebo File) -->
-  <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" /> 
+  <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" />
+  <!-- Used to get materials of robot -->
   <xacro:include filename="$(find mybot_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find mybot_description)/urdf/macros.xacro" />
 
