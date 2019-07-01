@@ -2,9 +2,9 @@
 
 <robot name="myrobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- Used to drive robot around (Gazebo File) -->
-  <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" />
-  <!-- Used to get materials of robot -->
+  <!-- DRIVE ROBOT IN GAZEBO -->
+  <!-- <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" /> -->
+  <!-- ROBOT DEFINITION MATERIALS -->
   <xacro:include filename="$(find mybot_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find mybot_description)/urdf/macros.xacro" />
 

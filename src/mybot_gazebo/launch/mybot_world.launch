@@ -18,5 +18,9 @@
         <arg name="debug" value="$(arg debug)"/>
     </include>
 
-    
+    <!-- ROBOT -->
+    <param name = "robot_description" command="$(find xacro)/xacro.py '$(find mybot_description/urdf/mybot.xacro'"
+    </param>
+
+
 </launch>
