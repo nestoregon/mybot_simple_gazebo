@@ -3,8 +3,8 @@
 <robot name="myrobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <!-- DRIVE ROBOT IN GAZEBO -->
-  <!-- <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" /> -->
-  <!-- ROBOT DEFINITION MATERIALS -->
+  <xacro:include filename="$(find mybot_description)/urdf/mybot.gazebo" />
+  <!-- Just a file with all different colors -->
   <xacro:include filename="$(find mybot_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find mybot_description)/urdf/macros.xacro" />
 
